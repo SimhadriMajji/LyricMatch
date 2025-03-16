@@ -1,4 +1,4 @@
-<img width="1512" alt="Screenshot 2025-03-16 at 7 48 54 PM" src="https://github.com/user-attachments/assets/6664ddd9-e3a1-4376-9970-aa2185bee201" /># 🎵 Lyric Match  
+# 🎵 Lyric Match  
 
 ## ⭐ Features  
 AI-generated song lyric snippets using Gemini AI. 
@@ -12,20 +12,22 @@ Preview
 
 ## 🚀 How to Run Locally  
 1. Clone the repository:  
-   ```sh
+   ```
    https://github.com/SimhadriMajji/LyricMatch.git
    cd LyricMatch
-   
+   ```
 2. Backend Setup:
-Navigate to the backend directory: cd backend
-Install dependencies: npm install
-Create a .env file in the backend/ folder with:
-GEMINI_API_KEY=your-gemini-api-key
-Start the backend: npm start
-Backend runs on: http://localhost:8000
+   Navigate to the backend directory: `cd backend`
+   Install dependencies: `npm install`
+   Create a .env file in the backend/ folder with:
+   ```
+      GEMINI_API_KEY=your-gemini-api-key
+   ```
+   Start the backend: `npm start`
+   Backend runs on: `http://localhost:8000`
 
 3. Frontend Setup:
-Navigate to the frontend directory: cd frontend
-Install dependencies: npm install
-Start the frontend: npm start
-Frontend runs on: http://localhost:3000
+   Navigate to the frontend directory: `cd frontend`
+   Install dependencies: `npm install`
+   Start the frontend: `npm start`
+   Frontend runs on: `http://localhost:3000`
