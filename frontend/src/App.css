@@ -1,0 +1,114 @@
+/* 🎶 Global Styles */
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(to right, #1a1a3e, #16255a);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* 🎵 Main Container */
+.container {
+  width: 90%;
+  max-width: 500px;
+  background: rgba(30, 30, 60, 0.9);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.6);
+  text-align: center;
+  color: #ffffff;
+}
+
+/* 🎸 Title */
+.title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #5db7ff;
+  text-shadow: 0px 0px 10px rgba(93, 183, 255, 0.8);
+  margin-bottom: 20px;
+}
+
+/* 🎤 Buttons */
+.button {
+  padding: 12px 18px;
+  border-radius: 8px;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  margin: 5px;
+  font-weight: bold;
+  color: white;
+}
+
+.generate-btn {
+  background: #4c9aff;
+  box-shadow: 0px 0px 8px rgba(76, 154, 255, 0.8);
+}
+
+.check-btn {
+  background: #0d6efd;
+  box-shadow: 0px 0px 8px rgba(13, 110, 253, 0.8);
+}
+
+.hint-btn {
+  background: #20c997;
+  box-shadow: 0px 0px 8px rgba(32, 201, 151, 0.8);
+}
+
+.button:hover {
+  transform: scale(1.05);
+}
+
+/* 🎧 Input Field */
+.input-field {
+  width: 100%;
+  padding: 12px;
+  font-size: 18px;
+  margin-top: 15px;
+  border: 2px solid #5db7ff;
+  border-radius: 6px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+
+/* 🎼 Lyric Box */
+.lyric-box {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 15px;
+  border-radius: 6px;
+  font-size: 18px;
+  margin-top: 10px;
+  color: #5db7ff;
+}
+
+/* 🎯 Attempts Box */
+.attempts-box {
+  background: rgba(0, 174, 255, 0.2);
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 18px;
+  margin-top: 20px;
+  color: #00d4ff;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* 🎶 Results & Errors */
+.result {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 15px;
+  color: #00ff00;
+}
+
+.error {
+  font-size: 18px;
+  color: red;
+  margin-top: 10px;
+  font-weight: bold;
+}
