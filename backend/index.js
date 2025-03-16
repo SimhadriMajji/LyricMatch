@@ -6,7 +6,7 @@ const songs = require("./songs"); // Ensure you have a songs.js file
 
 const app = express();
 app.use(express.json());
-app.use(cors({ origin: "http://localhost:3000" }));
+app.use(cors({ origin: "https://lyricmatch-0cxu.onrender.com" }));
 
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
 
